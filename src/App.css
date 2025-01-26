@@ -1,0 +1,18 @@
+.App {
+    display: flex;
+    max-width: 1024px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: whitesmoke;
+}
+
+input {
+    background-color: #242627;
+    border: solid 2px #16A085;
+    border-radius: 10px;
+    color: whitesmoke;
+}
