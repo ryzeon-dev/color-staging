@@ -1,7 +1,7 @@
 .App {
     display: flex;
     max-width: 1024px;
-    padding: 20px;
+    padding: 20px 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,4 +15,11 @@ input {
     border: solid 2px #16A085;
     border-radius: 10px;
     color: whitesmoke;
+}
+
+@media screen and (max-width: 1024px) {
+    .App {
+        max-width: 800px;
+
+    }
 }

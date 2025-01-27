@@ -155,7 +155,7 @@ function App() {
         <div className="App">
             <div style={{
                 height: '200px',
-                width: '800px',
+                width: '380px',
                 border: 'solid 1px #DADADA',
                 borderRadius: '10px',
                 backgroundColor: color
@@ -183,11 +183,11 @@ function App() {
                 display: 'flex',
                 flexDirection: 'row',
                 justifyContent: 'center',
-                gap: '10px',
+                gap: '5px',
                 color: '#f5f5f5',
                 alignItems: 'center'
             }}>
-                <label>RBG color: </label>
+                <label>RGB: </label>
                 <input id={'R'} onChange={rgbUpdate} style={{width: '100px', padding: '5px'}} defaultValue={'22'} type={"number"} min={0} max={255} />
                 <input id={'G'} onChange={rgbUpdate} style={{width: '100px', padding: '5px'}} defaultValue={'160'} type={"number"} min={0} max={255} />
                 <input id={'B'} onChange={rgbUpdate} style={{width: '100px', padding: '5px'}} defaultValue={'133'} type={"number"} min={0} max={255} />
@@ -197,7 +197,7 @@ function App() {
                 display: 'flex',
                 flexDirection: 'row',
                 justifyContent: 'center',
-                gap: '10px',
+                gap: '5px',
                 color: '#f5f5f5',
                 alignItems: 'center'
             }}>
